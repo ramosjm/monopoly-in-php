@@ -6,7 +6,7 @@ Otherwise I would not recommend doing this...<br>
 ## Seed data:
 I'm feeling particularly helpful and have added the seed data here for the db cz manually typing that was rough.<br>
 Down point to this is that it includes some columns, which can dictate how you go through this project.<br>
-Bear in mind that this is an export from <b>PHPMyadmin<b>.
+Bear in mind that this is an export from **PHPMyadmin**.
 <br>
 
 ## XAMPP steps:
