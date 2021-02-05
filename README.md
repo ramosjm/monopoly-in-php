@@ -3,6 +3,17 @@ Wanted to try this again using PHP and XAMPP.
 Why? I use PHP for work and need more practice. Otherwise I would not recommend doing this...
 
 
+##Seed data:
+I'm feeling particularly helpful and have added the seed data here for the db cz manually typing that was rough.
+Down point to this is that it includes some columns, which can dictate how you go through this project.
+Bear in mind that this is an export from PHPMyadmin.
+<br>
+
+#XAMPP steps:
+Install it (I use a mac).
+I set up virtual hosts to help me keep projects separate.<br>
+https://jonathannicol.com/blog/2012/03/11/configuring-virtualhosts-in-xampp-on-mac/
+
 ##MVP:
 
 - Must be able to choose 2-4 players
