@@ -1,8 +1,7 @@
 # monopoly-in-php
 Wanted to try this again using PHP and XAMPP.<br>
 Why? I use PHP for work and need more practice.<br>
-Otherwise I would not recommend doing this...
-<br>
+Otherwise I would not recommend doing this...<br>
 
 ## Seed data:
 I'm feeling particularly helpful and have added the seed data here for the db cz manually typing that was rough.<br>
