@@ -1,20 +1,20 @@
 # monopoly-in-php
-Wanted to try this again using PHP and XAMPP.
+Wanted to try this again using PHP and XAMPP.<br>
 Why? I use PHP for work and need more practice. Otherwise I would not recommend doing this...
 
 
-##Seed data:
+# Seed data:
 I'm feeling particularly helpful and have added the seed data here for the db cz manually typing that was rough.
 Down point to this is that it includes some columns, which can dictate how you go through this project.
 Bear in mind that this is an export from PHPMyadmin.
 <br>
 
-#XAMPP steps:
+# XAMPP steps:
 Install it (I use a mac).
 I set up virtual hosts to help me keep projects separate.<br>
 https://jonathannicol.com/blog/2012/03/11/configuring-virtualhosts-in-xampp-on-mac/
 
-##MVP:
+## MVP:
 
 - Must be able to choose 2-4 players
 - Must have 40 all tiles present (properties, utilities, transport, tax, chance and community chest)
@@ -26,7 +26,7 @@ https://jonathannicol.com/blog/2012/03/11/configuring-virtualhosts-in-xampp-on-m
 - Players will receive money whenever they pass go
 - Players cannot have negative money
 
-##Extenstions:
+## Extenstions:
 
 - Players will lose money if landed on tax
 - Players will will pay rent when landing on another players property
