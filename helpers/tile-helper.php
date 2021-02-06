@@ -17,7 +17,7 @@
 						{
 							$rows[] = $row;
 						}
-					return $rows;
+					return json_decode(json_encode($rows));
 				}
 			}
 		}
