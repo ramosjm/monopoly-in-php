@@ -7,6 +7,7 @@ include_once('models/tile-transport.php');
 include_once('models/tile-utility.php');
 include_once('models/tile-chest.php');
 include_once('models/tile-property.php');
+include_once('helpers/tile-helper.php');
 
 	class Tiles {
 
