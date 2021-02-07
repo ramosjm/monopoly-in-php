@@ -3,7 +3,8 @@
 	class TileView {
 
 		public function renderTile($tile){
-			$elements = '<div class="' . $tile->id . '">';
+
+			$elements = '<div class="tile-' . $tile->id . '">';
 			foreach($tile as $key =>$value){
 				if(!is_null($value)){
 					if($key != "id" && $key != "type") {
