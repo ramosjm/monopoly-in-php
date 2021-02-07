@@ -10,11 +10,11 @@
 			$this->tiles = $tiles;
 			$this->view = $view;
 		}
-		
+	
 		public function main(){
 			$this->view->renderTiles($this->tiles);
 		}
-		
+	
 	}
 
 ?>
