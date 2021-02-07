@@ -2,11 +2,11 @@
 
 	class Tile {
 		
-		private $id;
-		private $name;
-		private $cost;
-		private $rent;
-		private $type;
+		public $id;
+		public $name;
+		public $cost;
+		public $rent;
+		public $type;
 
 		public function __construct($tile) {
 			$this->id = $tile->id;

@@ -1,21 +1,15 @@
 <?php 
 
-include_once('models/tile-free.php');
-include_once('models/tile-tax.php');
-include_once('models/tile-chance.php');
-include_once('models/tile-transport.php');
-include_once('models/tile-utility.php');
-include_once('models/tile-chest.php');
-include_once('models/tile-property.php');
-include_once('helpers/tile-helper.php');
+require_once('models/tile-free.php');
+require_once('models/tile-tax.php');
+require_once('models/tile-chance.php');
+require_once('models/tile-transport.php');
+require_once('models/tile-utility.php');
+require_once('models/tile-chest.php');
+require_once('models/tile-property.php');
+require_once('helpers/tile-helper.php');
 
 	class Tiles {
-
-		private $tiles;
-
-		public function __construct(){
-			$this->tiles = $this->generateTiles();
-		}
 
 		public function generateTiles(){
 			$data = TileHelper::getData();
