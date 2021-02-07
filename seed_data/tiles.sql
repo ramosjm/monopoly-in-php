@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Feb 05, 2021 at 03:13 PM
+-- Generation Time: Feb 07, 2021 at 06:01 PM
 -- Server version: 10.4.13-MariaDB
 -- PHP Version: 7.2.31
 
@@ -31,10 +31,10 @@ DROP TABLE IF EXISTS `tiles`;
 CREATE TABLE `tiles` (
   `id` int(11) NOT NULL,
   `name` varchar(32) NOT NULL,
-  `cost` int(11) NOT NULL,
-  `rent` int(11) NOT NULL,
-  `housecost` int(11) NOT NULL,
-  `hotelcost` int(11) NOT NULL,
+  `cost` int(11) DEFAULT NULL,
+  `rent` int(11) DEFAULT NULL,
+  `housecost` int(11) DEFAULT NULL,
+  `hotelcost` int(11) DEFAULT NULL,
   `type` varchar(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -43,45 +43,45 @@ CREATE TABLE `tiles` (
 --
 
 INSERT INTO `tiles` (`id`, `name`, `cost`, `rent`, `housecost`, `hotelcost`, `type`) VALUES
-(1, 'Go', 0, 0, 0, 0, 'free'),
+(1, 'Go', NULL, NULL, NULL, NULL, 'free'),
 (2, 'gdynia', 600, 20, 500, 500, 'brown'),
-(3, 'community chest', 0, 0, 0, 0, 'chest'),
+(3, 'community chest', NULL, NULL, NULL, NULL, 'chest'),
 (4, 'taipei', 600, 40, 500, 500, 'brown'),
-(5, 'income tax', 2000, 0, 0, 0, 'tax'),
-(6, 'monopoly rail', 2000, 250, 0, 0, 'transport'),
+(5, 'income tax', 2000, NULL, NULL, NULL, 'tax'),
+(6, 'monopoly rail', 2000, 250, NULL, NULL, 'transport'),
 (7, 'tokyo', 1000, 60, 500, 500, 'light-blue'),
-(8, 'chance', 0, 0, 0, 0, 'chance'),
+(8, 'chance', NULL, NULL, NULL, NULL, 'chance'),
 (9, 'barcelona', 1000, 60, 500, 500, 'light-blue'),
 (10, 'athens', 1200, 80, 500, 500, 'light-blue'),
-(11, 'in jail / just visiting', 0, 0, 0, 0, 'free'),
+(11, 'in jail / just visiting', NULL, NULL, NULL, NULL, 'free'),
 (12, 'instanbul', 1400, 100, 1000, 1000, 'pink'),
-(13, 'solar energy', 1500, 0, 0, 0, 'utility'),
+(13, 'solar energy', 1500, NULL, NULL, NULL, 'utility'),
 (14, 'kyiv', 1400, 100, 1000, 1000, 'pink'),
 (15, 'toronto', 1600, 120, 1000, 1000, 'pink'),
-(16, 'monopoly air', 2000, 250, 0, 0, 'transport'),
+(16, 'monopoly air', 2000, 250, NULL, NULL, 'transport'),
 (17, 'rome', 1800, 140, 1000, 1000, 'orange'),
-(18, 'community chest', 0, 0, 0, 0, 'chest'),
+(18, 'community chest', NULL, NULL, NULL, NULL, 'chest'),
 (19, 'shanghai', 1800, 140, 1000, 1000, 'orange'),
 (20, 'vancouver', 2000, 160, 1000, 1000, 'orange'),
-(21, 'free parking', 0, 0, 0, 0, 'free'),
+(21, 'free parking', NULL, NULL, NULL, NULL, 'free'),
 (22, 'sydney', 2200, 180, 1500, 1500, 'red'),
-(23, 'chance', 0, 0, 0, 0, 'chance'),
+(23, 'chance', NULL, NULL, NULL, NULL, 'chance'),
 (24, 'new york', 2200, 180, 1500, 1500, 'red'),
 (25, 'london', 2400, 200, 1500, 1500, 'red'),
-(26, 'monopoly cruise', 2000, 250, 0, 0, 'transport'),
+(26, 'monopoly cruise', 2000, 250, NULL, NULL, 'transport'),
 (27, 'beijing', 2600, 220, 1500, 1500, 'yellow'),
 (28, 'hong kong', 2600, 220, 1500, 1500, 'yellow'),
-(29, 'wind energy', 1500, 0, 0, 0, 'utility'),
+(29, 'wind energy', 1500, NULL, NULL, NULL, 'utility'),
 (30, 'jerusalem', 2800, 240, 1500, 1500, 'yellow'),
-(31, 'go to jail', 0, 0, 0, 0, 'jail'),
+(31, 'go to jail', NULL, NULL, NULL, NULL, 'jail'),
 (32, 'paris', 3000, 260, 2000, 2000, 'green'),
 (33, 'belgrade', 3000, 260, 2000, 2000, 'green'),
-(34, 'community chest', 0, 0, 0, 0, 'chest'),
+(34, 'community chest', NULL, NULL, NULL, NULL, 'chest'),
 (35, 'cape town', 3200, 280, 2000, 2000, 'green'),
-(36, 'monopoly space', 2000, 250, 0, 0, 'transport'),
-(37, 'chance', 0, 0, 0, 0, 'chance'),
+(36, 'monopoly space', 2000, 250, NULL, NULL, 'transport'),
+(37, 'chance', NULL, NULL, NULL, NULL, 'chance'),
 (38, 'riga', 3500, 350, 2000, 2000, 'blue'),
-(39, 'super tax', 1000, 0, 0, 0, 'tax'),
+(39, 'super tax', 1000, NULL, NULL, NULL, 'tax'),
 (40, 'montreal', 4000, 500, 2000, 2000, 'blue');
 
 --
