@@ -1,5 +1,4 @@
 <?php 
-	require_once('models/tile.php');
 	class TileProperty extends Tile {
 		public $house_count;
 		public $house_cost;
