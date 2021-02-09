@@ -1,3 +1,89 @@
+*{
+	margin: 0;
+}
 h5{
 	color: red;
+	margin: 5;
+}
+
+.board{
+	display: flex;
+	flex-direction: column;
+	margin:2px;
+}
+
+div[class*="tile-"]{
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.flex-top{
+	display: flex;
+	order: 0;
+}
+
+.flex-top div, .flex-bottom div {
+	width: 9%;
+	height: 160px;
+}
+
+.flex-top h5{
+	color: blue;
+}
+
+.mid-section {
+	display: inline-flex;
+	justify-content: space-between;
+	order: 1;
+}
+
+.flex-left{
+	display: flex;
+	/* align-self: flex-start; */
+	flex-direction: column-reverse;
+	/* transform: rotateZ(90deg); */
+	/* transform-origin: 82px 50% 0; */
+}
+
+.center{
+	flex-grow: 3;
+	/* height: 970px; */
+	border: 2px solid red;
+}
+
+.flex-right{
+	display: flex;
+	flex-direction: column;
+    /* transform: rotateZ(90deg); */
+    /* transform-origin: 155px 16% 0; */
+	/* border: 1px solid blue; */
+}
+
+.flex-left div, .flex-right div{
+	height: 160px;
+	width: 106px;
+}
+
+.flex-right div{
+	/* transform: rotateZ(45deg); */
+}
+
+.flex-right h5{
+	color: green;
+}
+
+.flex-bottom{
+	display: inline-flex;
+	flex-direction: row-reverse;
+	order: 2;
+}
+
+.flex-bottom h5{
+	color: purple;
+}
+
+.tile-1, .tile-11, .tile-21, .tile-31{
+	min-width: 160px !important;
 }
